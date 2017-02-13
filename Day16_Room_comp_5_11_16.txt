@@ -1,0 +1,367 @@
+
+The ICSI Netalyzr
+Start » Analysis » Results
+Result Summary + – (help)
+14.139.122.120
+Recorded at 16:03 UTC (16:03 UTC), Nov 05 2016. Permalink. Client/server transcript.
+Summary of Noteworthy Events + –
+Major Abnormalities
+–
+
+    You are listed on a significant DNS blacklist
+    We detected an HTTP proxy that may be vulnerable to attack
+    Your ISP's DNS server is slow to lookup names 
+
+Minor Aberrations
+–
+
+    Certain TCP protocols are blocked in outbound traffic
+    Certain UDP protocols are blocked in outbound traffic
+    We detected at least one proxy
+    The time to set up a TCP connection was somewhat high
+    The network indicated bursts of packet loss
+    We detected an HTTP proxy due to flow content changes
+    Content filters or compression proxies appear to be present in the network
+    We received unexpected and possibly dangerous results when looking up important names 
+
+Address-based Tests + –
+NAT detection (?): NAT Detected
+–
+
+Your global IP address is 14.139.122.120 while your local one is 192.168.0.104. You are behind a NAT.
+
+Your machine numbers TCP source ports sequentially. The following graph shows connection attempts on the X-axis and their corresponding source ports used by your computer on the Y-axis.
+
+port sequence plot
+
+The NAT or some other process renumbers TCP ports. The following graph shows connection attempts on the X-axis and their corresponding source ports on the Y-axis as seen by our server.
+
+port sequence plot
+Local Network Interfaces (?): OK
+–
+Your computer reports the following network interfaces, with the following IP addresses for each one:
+
+    lo: (a local loopback interface)
+        ::1 [ip6-localhost] (an IPv6 loopback address)
+        127.0.0.1 [localhost] (an IPv4 loopback address)
+    wlan0:
+        fe80::42f0:2fff:fe77:eba9 (a link-local IPv6 address)
+        192.168.0.104 (a private IPv4 address)
+
+DNS-based host information (?): Warning
+–
+You are not a Tor exit node for HTTP traffic.
+You are listed on the following Spamhaus blacklists: XBL PBL
+The SORBS DUHL believes you are using a statically assigned IP address.
+NAT support for Universal Plug and Play (UPnP) (?): Yes
+–
+We received UPnP responses from one device:
+
+    192.168.0.1: this device provided a valid device description via its UPnP URL. This description, viewable here, contains the following information about this gateway:
+        Name: Wireless-N Broadband Router
+        Manufacturer: Tenda
+        Manufacturer URL: http://www.tendacn.com
+        Model name: Wireless-N Router
+        Model number: Wireless-N Router
+        Model URL: http://www.tendacn.com
+        Model Description: Wireless-N Broadband Router
+    This device appears to run "POSIX UPnP/1.0 UPnP Stack/1.11.0.0". 
+
+Reachability Tests + –
+TCP connectivity (?): Note
+–
+Direct TCP access to remote FTP servers (port 21) is allowed.
+Direct TCP access to remote SSH servers (port 22) is allowed.
+
+Direct TCP access to remote SMTP servers (port 25) is prohibited.
+
+This means you cannot send email via SMTP to arbitrary mail servers. Such blocking is a common countermeasure against malware abusing infected machines for generating spam. Your ISP likely provides a specific mail server that is permitted. Also, webmail services remain unaffected.
+
+Direct TCP access to remote DNS servers (port 53) is blocked.
+
+The network you are using appears to enforce the use of a local DNS resolver.
+Direct TCP access to remote HTTP servers (port 80) is allowed.
+Direct TCP access to remote POP3 servers (port 110) is blocked.
+
+Direct TCP access to remote RPC servers (port 135) is blocked.
+
+This is probably for security reasons, as this protocol is generally not designed for use outside the local network.
+
+Direct TCP access to remote NetBIOS servers (port 139) is blocked.
+
+This is probably for security reasons, as this protocol is generally not designed for use outside the local network.
+Direct TCP access to remote IMAP servers (port 143) is blocked.
+Direct TCP access to remote SNMP servers (port 161) is allowed.
+Direct TCP connections to remote HTTPS servers (port 443) succeed, but do not receive the expected content.
+
+The client received an empty response instead of our normal banner. This suggests that a firewall, proxy, or filter initially allowed the connection and then terminated it, either because it did not understand our server's reply or decided to block the service.
+
+Direct TCP access to remote SMB servers (port 445) is blocked.
+
+This is probably for security reasons, as this protocol is generally not designed for use outside the local network.
+Direct TCP access to remote SMTP/SSL servers (port 465) is allowed.
+Direct TCP access to remote secure IMAP servers (port 585) is allowed.
+Direct TCP connections to remote authenticated SMTP servers (port 587) succeed, but do not receive the expected content.
+
+The client received an empty response instead of our normal banner. This suggests that a firewall, proxy, or filter initially allowed the connection and then terminated it, either because it did not understand our server's reply or decided to block the service.
+Direct TCP access to remote IMAP/SSL servers (port 993) is allowed.
+Direct TCP access to remote POP/SSL servers (port 995) is allowed.
+Direct TCP access to remote OpenVPN servers (port 1194) is allowed.
+Direct TCP access to remote PPTP Control servers (port 1723) is blocked.
+Direct TCP access to remote SIP servers (port 5060) is allowed.
+Direct TCP access to remote BitTorrent servers (port 6881) is allowed.
+Direct TCP access to remote TOR servers (port 9001) is allowed.
+UDP connectivity (?): Note
+–
+Basic UDP access is available.
+
+The client was able to send fragmented UDP traffic.
+
+The client was able to receive fragmented UDP traffic.
+
+Direct UDP access to remote DNS servers (port 53) is blocked.
+
+The network you are using appears to enforce the use of a local DNS resolver.
+Direct UDP access to remote NTP servers (port 123) is allowed.
+Direct UDP access to remote NetBIOS NS servers (port 137) is blocked.
+Direct UDP access to remote NetBIOS DGM servers (port 138) is blocked.
+Direct UDP access to remote IKE key exchange servers (port 500) is blocked.
+Direct UDP access to remote OpenVPN servers (port 1194) is allowed.
+Direct UDP access to remote Slammer servers (port 1434) is allowed.
+Direct UDP access to remote L2 tunneling servers (port 1701) is blocked.
+Direct UDP access to remote IPSec NAT servers (port 4500) is blocked.
+Direct UDP access to remote RTP servers (port 5004) is allowed.
+Direct UDP access to remote RTCP servers (port 5005) is allowed.
+Direct UDP access to remote SIP servers (port 5060) is allowed.
+Direct UDP access to remote VoIP servers (port 7078) is allowed.
+Direct UDP access to remote VoIP servers (port 7082) is allowed.
+Direct UDP access to remote SCTP servers (port 9899) is allowed.
+Direct UDP access to remote Steam gaming servers (port 27005) is allowed.
+Direct UDP access to remote Steam gaming servers (port 27015) is allowed.
+Traceroute (?): OK
+–
+
+It takes 20 network hops for traffic to pass from our server to your system, as shown below. For each hop, the time it takes to traverse it is shown in parentheses.
+
+    *
+    *
+    *
+    *
+    *
+    100.65.11.193 (0 ms)
+    205.251.244.213 (1 ms)
+    54.239.109.6 (15 ms)
+    54.239.111.239 (1 ms)
+    206.126.236.141 (27 ms)
+    85.95.25.82 (74 ms)
+    85.95.26.237 (202 ms)
+    *
+    *
+    *
+    115.248.54.101 (262 ms)
+    115.248.54.101 (271 ms)
+    *
+    *
+    14.139.122.120 (274 ms)
+
+Path MTU (?): OK
+–
+The path between your network and our system supports an MTU of at least 2037 bytes, and the path between our system and your network has an MTU of 1500 bytes.
+Hidden Proxy Detection (?): Warning
+–
+
+Netalyzr detected the following proxies:
+
+        Port: 80 (HTTP), Response Time: 3 ms
+        Port: 443 (HTTPS), Response Time: 4 ms
+        Port: 587 (Authenticated SMTP), Response Time: 73 ms
+
+Network Access Link Properties + –
+Network performance (?): Latency: 270 ms, Loss: 0.0%
+–
+The round-trip time (RTT) between your computer and our server is 270 ms, which is good.
+We recorded no packet loss between your system and our server.
+TCP connection setup latency (?): 550ms
+–
+The time it takes your computer to set up a TCP connection with our server is 550 ms, which is somewhat high. This may be due to a variety of factors, including distance between your computer and our server, a slow network link, or other network traffic.
+Background measurement of network health (?): 1 transient outages, longest: 0.8 seconds
+–
+During most of Netalyzr's execution, the client continuously measures the state of the network in the background, looking for short outages. During testing, the client observed 1 such outages. The longest outage lasted for 0.8 seconds. This suggests a general problem with the network where connectivity is intermittent. This loss might also cause some of Netalyzr's other tests to produce incorrect results.
+Network bandwidth (?): Upload 1.4 Mbit/s, Download 1.3 Mbit/s
+–
+Your Uplink: We measured your uplink's sending bandwidth at 1.4 Mbit/s. This level of bandwidth works well for many users.
+Your Downlink: We measured your downlink's receiving bandwidth at 1.3 Mbit/s. This level of bandwidth works well for many users.
+Network buffer measurements (?): Uplink is good, Downlink is good
+–
+We were not able to produce enough traffic to load the uplink buffer, or the uplink buffer is particularly small. You probably have excellent behavior when uploading files and attempting to do other tasks.
+We were not able to produce enough traffic to load the downlink buffer, or the downlink buffer is particularly small. You probably have excellent behavior when downloading files and attempting to do other tasks.
+HTTP Tests + –
+Address-based HTTP proxy detection (?): OK
+–
+An I/O error occurred during the test. The test result code is 34.
+Content-based HTTP proxy detection (?): Warning
+–
+
+Changes to headers or contents sent between the client and our HTTP server show the presence of an otherwise unadvertised HTTP proxy.
+
+The detected HTTP proxy changed either the headers the client sent or the HTTP response from the server. We have captured the changes for further analysis.
+
+The detected HTTP proxy may cause your traffic to be vulnerable to CERT Vulnerability Note 435052. An attacker might be able to use this vulnerability to attack your web browser.
+HTTP proxy detection via malformed requests (?): OK
+–
+Deliberately malformed HTTP requests arrive at our server unchanged. Thus, the proxies along your path are able to transparently forward invalid HTTP traffic.
+Filetype-based filtering (?): Note
+–
+Files of type exe remain unmodified by the network.
+Files of type mp3 are blocked by the network.
+Files of type torrent are modified by the network.
+A test "virus" (the benign EICAR test file that antivirus vendors recognize as a test) was not modified in transit.
+HTTP caching behavior (?): OK
+–
+We detected no signs of a transparent HTTP cache in your network path.
+JavaScript-based tests (?): OK
+–
+The client did not execute within a frame.
+Your web browser reports the following cookies for our web page:
+
+    lang = en-US (set by our server)
+    netAlizEd = BaR (set by our server)
+    netalyzrStatus = running (set by our server)
+
+Your web browser was unable to fetch an image using IPv6.
+Sensitive proxy-introduced HTTP headers (?): OK
+–
+No sensitive headers found.
+DNS Tests + –
+Restricted domain DNS lookup (?): OK
+–
+We can successfully look up a name which resolves to the same IP address as our webserver. This means we are able to conduct many of the tests on your DNS server.
+Unrestricted domain DNS lookup (?): OK
+–
+We can successfully look up arbitrary names from the client. This means we are able to conduct all test on your DNS server.
+DNS resolver address (?): OK
+–
+The IP address of your ISP's DNS Resolver is 74.125.190.131, which does not resolve. Additional nameservers observed for your host: 74.125.190.142, 74.125.190.4, 74.125.190.21, 74.125.190.14, 74.125.190.134.
+DNS resolver properties (?): Lookup latency 800 ms
+–
+Your ISP's DNS resolver requires 800 ms to conduct an external lookup.
+This is particularly slow, and you may see significant performance degradation as a result.
+Your resolver correctly uses TCP requests when necessary.
+Your resolver is using QTYPE=A for default queries.
+Your host or resolver also performs IPv6 queries in addition to IPv4 queries.
+Your DNS resolver requests DNSSEC records.
+Your DNS resolver advertises the ability to accept DNS packets of up to 4096 bytes.
+Your DNS resolver can successfully receive a smaller (~1400 byte) DNS response.
+Your DNS resolver can successfully receive a large (>1500 byte) DNS response.
+Your DNS resolver can successfully accept large responses.
+Your resolver does not use 0x20 randomization, but will pass names in a case-sensitive manner.
+Your ISP's DNS server cannot use IPv6.
+No transport problems were discovered which could affect the deployment of DNSSEC.
+Direct probing of DNS resolvers (?)
+–
+Your system is configured to use 1 DNS resolver(s).
+The resolver at None is not responding to requests.
+DNS glue policy (?): OK
+–
+Your ISP's DNS resolver does not accept generic additional (glue) records — good.
+Your ISP's DNS resolver does not accept additional (glue) records which correspond to nameservers.
+Your ISP's DNS resolver does not follow CNAMEs.
+DNS resolver port randomization (?): OK
+–
+Your ISP's DNS resolver properly randomizes its local port number.
+
+The following graph shows DNS requests on the x-axis and the detected source ports on the y-axis.
+
+port sequence plot
+DNS lookups of popular domains (?): Warning
+–
+
+One popular name has a moderate anomaly: we are unable to find a reverse name associated with the IP address provided by your ISP's DNS server, although we expected to find a name. This is most likely due to a slow responding DNS server. If you rerun Netalyzr and see this condition remain, it could be due to a misconfiguration on the part of the domain owner, deliberate blocking using DNS, or your DNS server could be misconfigured or enabling a Man-in-the-Middle attack.
+Name 	IP Address 	Reverse Name/SOA
+wireless.att.com 	135.209.168.22 	X
+100 of 100 popular names were resolved successfully. Show all names.
+32 popular names have a mild anomaly. The ownership suggested by the reverse name lookup does not match our understanding of the original name. The most likely cause is the site's use of a Content Delivery Network. Show all names.
+38 popular names have a mild anomaly: we are unable to find a reverse name associated with the IP address provided by your ISP's DNS server. This is most likely due to a slow responding DNS server or misconfiguration on the part of the domain owner. Show all names.
+DNS external proxy (?): OK
+–
+Your host ignores external DNS requests.
+DNS results wildcarding (?): OK
+–
+Your ISP correctly leaves non-resolving names untouched.
+DNS-level redirection of specific sites (?): OK
+–
+Your ISP does not appear to be using DNS to redirect traffic for specific websites.
+Direct probing of DNS roots (?): Failed to complete
+–
+The test failed to execute completely, or the required results did not get uploaded to our server completely.
+IPv6 Tests + –
+DNS support for IPv6 (?): OK
+–
+Your system can successfully look up IPv6 addresses. Your DNS resolver is on Google's IPv6 "whitelist", which means that Google enables IPv6 access to their services for you.
+IPv4, IPv6, and your web browser (?): No IPv6 support
+–
+Your browser was unable to fetch a test image from an IPv6-only server. IPv4 performance to our IPv4-only server did not differ substantially from our IPv4/IPv6 dual-stacked one.
+IPv6 connectivity (?): No IPv6 support
+–
+Your host was not able to contact a separate server using IPv6, but was able to contact the same server using IPv4.
+Network Security Protocols + –
+DNSSEC Support from the DNS Roots (?): Not executed
+–
+The test was not executed. Required functionality was unavailable or not permitted, or this session dates from a time before Netalyzr supported this test.
+Host Properties + –
+System clock accuracy (?): OK
+–
+Your computer's clock agrees with our server's clock.
+Browser properties (?): OK
+–
+Your web browser sends the following parameters to all web sites you visit:
+
+    User Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0
+    Accept: text/html,application/xhtml+xml,application/xml; q=0.9,*/*; q=0.8
+    Accept Language: en-US,en;q=0.5
+    Accept Encoding: gzip, deflate
+    Accept Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+
+Java identifies your operating system as Linux.
+Uploaded data (?): OK
+–
+The client uploaded the following additional content:
+
+    apache_404
+    custom_404
+    plain_404
+    proxyTracerouteIPv4Port1947
+    proxyTracerouteIPv4Port443
+    proxyTracerouteIPv4Port587
+    proxyTracerouteIPv4Port80
+    proxy_bug__proxy_bug_1
+    proxy_bug__proxy_bug_2
+    raw_http_content
+    upnp_0_descr
+    upnp_0_details
+    upnp_0_ssdp
+
+Feedback + –
+User-provided feedback
+–
+
+Kindly take a moment to answer a few questions. All fields are optional. You can submit your feedback once the tests complete. If you would like to contact us with questions about your results, please send email with your session ID, or get in touch on the mailing list.
+
+If you'd like to give us a way to contact you at a later time, please provide an email address. We will never share your address with anyone.
+
+How is your machine/device connected to the local network?
+WiFi
+Wired
+Tethered via USB
+Tethered via WiFi
+
+Where are you right now?
+At home
+At work
+In a public setting (wifi hotspot, internet cafe, etc)
+Other (please describe)
+
+Feel free to leave additional comments here.
+ID 369839a0-11634-8b06a98d-a9bf-48f2-8f87
+FAQs + Blog + Papers + Links + ICSI
+
